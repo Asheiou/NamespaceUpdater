@@ -1,0 +1,13 @@
+name: NamespaceUpdater
+version: '1.0-SNAPSHOT'
+main: cymru.asheiou.namespaceUpdater.NamespaceUpdater
+api-version: '1.21'
+depend: [AeoliaLib, LuckPerms]
+commands:
+  updatenamespace:
+    usage: /<command>
+    permission: namespaceupdater.use
+
+permissions:
+  namespaceupdater.use:
+    default: false
