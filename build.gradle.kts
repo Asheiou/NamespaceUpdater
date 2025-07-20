@@ -29,7 +29,7 @@ repositories {
 dependencies {
   compileOnly("io.papermc.paper:paper-api:1.21-R0.1-SNAPSHOT")
   implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-  implementation("xyz.aeolia:lib:2.0-dev5")
+  implementation("xyz.aeolia:lib:1.9.1")
   implementation("net.luckperms:api:5.4")
 }
 
